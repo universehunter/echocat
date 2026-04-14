@@ -1,9 +1,0 @@
-Loading datasets...
-First batch keys: ['image', 'mask', 'mean', 'std']
-Use concat skip method
-/mnt/data/dkx/noise2same.pytorch/noise2same/trainer.py:57: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
-  self.scaler = GradScaler() if amp else None
-  0%|          | 0/50 [00:00<?, ?it/s]         /mnt/data/dkx/noise2same.pytorch/noise2same/trainer.py:90: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
-  with autocast(enabled=self.amp)::00<?, ?it/s]
-
-train:   6%|▌         | 57/1000 [00:19<03:09,  4.96it/s, bsp_mse=0.377, rec_mse=0.371, inv_mse=0.000699, loss=0.409]

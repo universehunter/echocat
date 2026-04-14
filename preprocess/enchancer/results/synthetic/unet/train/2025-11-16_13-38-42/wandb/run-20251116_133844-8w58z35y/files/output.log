@@ -1,9 +1,0 @@
-Loading datasets...
-Train dataset length: 8126
-Error executing job with overrides: ['+experiment=synthetic', '+backbone=unet']
-Traceback (most recent call last):
-  File "/mnt/data/dkx/noise2same.pytorch/train.py", line 69, in main
-    print(f"Valid dataset length: {len(dataset_valid)}")
-TypeError: object of type 'NoneType' has no len()
-
-Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
