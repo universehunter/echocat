@@ -1,0 +1,12 @@
+Loading datasets...
+Error executing job with overrides: ['+experiment=synthetic', '+backbone=unet']
+Traceback (most recent call last):
+  File "/mnt/data/dkx/noise2same.pytorch/train.py", line 67, in main
+    dataset_train, dataset_valid = get_dataset(cfg, cwd)
+  File "/mnt/data/dkx/noise2same.pytorch/noise2same/dataset/getter.py", line 48, in get_dataset
+    transforms = training_augmentations_2d(crop=cfg.training.crop)
+  File "/mnt/data/dkx/noise2same.pytorch/noise2same/dataset/util.py", line 102, in training_augmentations_2d
+    return albu.Compose([
+TypeError: Compose.__init__() got an unexpected keyword argument 'mask'
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

@@ -1,0 +1,12 @@
+{"time":"2025-11-16T13:44:11.507487814+08:00","level":"INFO","msg":"stream: starting","core version":"0.22.2"}
+{"time":"2025-11-16T13:44:16.544677539+08:00","level":"ERROR","msg":"monitor: failed to initialize GPU resource: monitor: could not get GPU binary port: timeout reading portfile /tmp/wandb-system-monitor-portfile-1997546290"}
+{"time":"2025-11-16T13:44:16.996852921+08:00","level":"INFO","msg":"stream: created new stream","id":"9spt40bc"}
+{"time":"2025-11-16T13:44:16.996963385+08:00","level":"INFO","msg":"handler: started","stream_id":"9spt40bc"}
+{"time":"2025-11-16T13:44:16.997076619+08:00","level":"INFO","msg":"stream: started","id":"9spt40bc"}
+{"time":"2025-11-16T13:44:16.997108098+08:00","level":"INFO","msg":"writer: started","stream_id":"9spt40bc"}
+{"time":"2025-11-16T13:44:16.997110233+08:00","level":"INFO","msg":"sender: started","stream_id":"9spt40bc"}
+{"time":"2025-11-16T13:44:43.468757816+08:00","level":"INFO","msg":"stream: closing","id":"9spt40bc"}
+{"time":"2025-11-16T13:44:44.310715444+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-16T13:44:44.778623048+08:00","level":"INFO","msg":"handler: closed","stream_id":"9spt40bc"}
+{"time":"2025-11-16T13:44:44.778794284+08:00","level":"INFO","msg":"sender: closed","stream_id":"9spt40bc"}
+{"time":"2025-11-16T13:44:44.778813164+08:00","level":"INFO","msg":"stream: closed","id":"9spt40bc"}

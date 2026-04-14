@@ -1,0 +1,12 @@
+{"time":"2025-11-16T13:47:44.952530061+08:00","level":"INFO","msg":"stream: starting","core version":"0.22.2"}
+{"time":"2025-11-16T13:47:49.994882891+08:00","level":"ERROR","msg":"monitor: failed to initialize GPU resource: monitor: could not get GPU binary port: timeout reading portfile /tmp/wandb-system-monitor-portfile-4029116359"}
+{"time":"2025-11-16T13:47:50.437437942+08:00","level":"INFO","msg":"stream: created new stream","id":"kvds2srm"}
+{"time":"2025-11-16T13:47:50.437553182+08:00","level":"INFO","msg":"handler: started","stream_id":"kvds2srm"}
+{"time":"2025-11-16T13:47:50.437754163+08:00","level":"INFO","msg":"stream: started","id":"kvds2srm"}
+{"time":"2025-11-16T13:47:50.437783829+08:00","level":"INFO","msg":"writer: started","stream_id":"kvds2srm"}
+{"time":"2025-11-16T13:47:50.437783963+08:00","level":"INFO","msg":"sender: started","stream_id":"kvds2srm"}
+{"time":"2025-11-16T13:48:25.907190775+08:00","level":"INFO","msg":"stream: closing","id":"kvds2srm"}
+{"time":"2025-11-16T13:48:26.71089541+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-16T13:48:27.162647125+08:00","level":"INFO","msg":"handler: closed","stream_id":"kvds2srm"}
+{"time":"2025-11-16T13:48:27.162810498+08:00","level":"INFO","msg":"sender: closed","stream_id":"kvds2srm"}
+{"time":"2025-11-16T13:48:27.162827368+08:00","level":"INFO","msg":"stream: closed","id":"kvds2srm"}

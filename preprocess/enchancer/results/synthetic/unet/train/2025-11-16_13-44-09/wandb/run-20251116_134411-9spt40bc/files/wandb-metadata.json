@@ -1,0 +1,31 @@
+{
+  "os": "Linux-6.8.0-83-generic-x86_64-with-glibc2.35",
+  "python": "CPython 3.10.18",
+  "startedAt": "2025-11-16T05:44:11.279956Z",
+  "args": [
+    "+experiment=synthetic",
+    "+backbone=unet"
+  ],
+  "program": "/mnt/data/dkx/noise2same.pytorch/train.py",
+  "codePath": "train.py",
+  "git": {
+    "remote": "https://github.com/papkov/noise2same.pytorch.git",
+    "commit": "dc3697be1dfd27e78b0b129d4aecb5bcf98ccfcb"
+  },
+  "email": "kaixinduan44@gmail.com",
+  "root": "/mnt/data/dkx/noise2same.pytorch/results/synthetic/unet/train/2025-11-16_13-44-09",
+  "host": "ad",
+  "executable": "/home/ad/miniconda3/envs/dkx/bin/python",
+  "cpu_count": 56,
+  "cpu_count_logical": 112,
+  "disk": {
+    "/": {
+      "total": "982820896768",
+      "used": "635178749952"
+    }
+  },
+  "memory": {
+    "total": "270049914880"
+  },
+  "writerId": "do00upa1pq1gbq8x4q4kl2ynww880uqf"
+}
