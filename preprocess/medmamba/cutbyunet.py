@@ -9,9 +9,9 @@ from PIL import Image
 from tqdm import tqdm
 
 # ---------------- 配置（只需修改这三项路径） ----------------
-original_root_folder = r'/mnt/data/dkx/新的2例三尖瓣下移'   # 源图像（允许包含子文件夹）
-segmented_root_folder = r'/mnt/data/dkx/dkx_need/WestChina/2026_03_13/分割'  # 掩码目录（允许包含子文件夹）
-output_root_folder = r'/mnt/data/dkx/dkx_need/WestChina/2026_03_13/裁剪'  # 输出目录（将保留掩码的相对目录结构）
+original_root_folder = r''   # 源图像（允许包含子文件夹）
+segmented_root_folder = r''  # 掩码目录（允许包含子文件夹）
+output_root_folder = r''  # 输出目录（将保留掩码的相对目录结构）
 # -------------------------------------------------------
 
 SUPPORTED_EXTS = ('.png', '.jpg', '.jpeg', '.tif', '.tiff', '.bmp')

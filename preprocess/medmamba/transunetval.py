@@ -311,30 +311,12 @@ class TransUNetInference:
                 pbar.update(1)
 
 
-# ------------------------- 主函数 -------------------------
-def main():
-    # 配置参数
-    MODEL_PATH = "/mnt/data/dkx/dkx_need/medmamba/west_china_segment.pth"  # 训练好的模型路径
-    INPUT_FOLDER = "/mnt/data/dkx/dkx_need/WestChina/德阳/2025.7.15叶璐核实完成德阳测试集（在马蓉基础上）标注切面分类及诊断分类后"  # 输入文件夹
-    OUTPUT_FOLDER = "/mnt/data/dkx/dkx_need/WestChina/德阳/分割"  # 输出文件夹
-    THRESHOLD = 0.5  # 二值化阈值
-    DEVICE = 'cuda'  # 或 'cpu'
-
-    # 创建推理器
-    inferencer = TransUNetInference(MODEL_PATH, DEVICE)
-
-    # 批量处理
-    inferencer.batch_process_with_progress(INPUT_FOLDER, OUTPUT_FOLDER, THRESHOLD)
-
-    print("批量处理完成！")
-
-
 # ------------------------- 使用示例 -------------------------
 if __name__ == "__main__":
     # 示例1: 直接使用
-    model_path = "/mnt/data/dkx/dkx_need/medmamba/west_china_segment.pth"
-    input_folder = "/mnt/data/dkx/新的2例三尖瓣下移"
-    output_folder = "/mnt/data/dkx/dkx_need/WestChina/2026_03_13/分割"
+    model_path = ""
+    input_folder = ""
+    output_folder = ""
 
     # 创建推理器
     inferencer = TransUNetInference(model_path, device='cuda')

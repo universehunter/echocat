@@ -239,8 +239,8 @@ if __name__ == '__main__':
     print(f"Using device: {device}")
 
     # 修改为直接指向存放成对图片的文件夹
-    image_dir = '/mnt/data/dkx/dkx_need/WestChina/德阳/2025.7.15叶璐核实完成德阳测试集（在马蓉基础上）标注切面分类及诊断分类后'  # 你的原始图像路径
-    mask_dir = '/mnt/data/dkx/dkx_need/WestChina/德阳/分割掩码'    # 你的掩码图像路径
+    image_dir = ''  # 你的原始图像路径
+    mask_dir = ''    # 你的掩码图像路径
 
     dataset = MedicalImageDataset(image_dir, mask_dir)
     print(f"Total paired images found: {len(dataset)}")
